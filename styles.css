@@ -46,7 +46,7 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: gray;
+    background-color: rgb(124, 32, 32);
 }
 
 .hero {
@@ -55,8 +55,6 @@ ul li a:hover {
     justify-items: center;
     margin-top: 80px;
     height: 80vh;
-
-
 }
 
 .hero .content {
@@ -105,6 +103,15 @@ ul li a:hover {
     background-color: rgb(150, 38, 38);
 }
 
+
+.hamburgerMenuList {
+    display: none;
+}
+
+
+.hamburgers {
+    display: none;
+}
 
 .sora {
     font-family: "Sora", sans-serif;
@@ -230,10 +237,10 @@ ul li a:hover {
 }
 
 .footers {
-    background-color: brown;
+    background-color: #553311;
     height: auto;
     padding: 10px;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 .footers .listfooter {
@@ -354,4 +361,180 @@ ul li a:hover {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+
+@media(max-width:768px) {
+
+    .navbar {
+        width: 450px;
+        margin-top: 5px;
+        display: flex;
+        margin-bottom: -40px;
+    }
+
+    .hamburgerMenuList {
+        display: none;
+    }
+
+    .hamburgerMenuList a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+
+        font-family: "Poppins", sans-serif;
+
+    }
+
+    .hamburgerMenuList a:hover {
+        border-radius: 10px;
+        background-color: rgb(124, 32, 32);
+
+    }
+
+    .hamburgerMenuList.active {
+        display: block;
+        background-color: brown;
+        padding: 20px 30px;
+        width: 408px;
+        height: 30vh;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+
+    .hamburgers {
+        display: flex;
+        cursor: pointer;
+        color: white;
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    .hambugers .menuss {
+        display: none;
+    }
+
+    .hambugers.active .menuss {
+        display: block;
+    }
+
+
+
+
+    .navbar ul li a {
+        display: none;
+    }
+
+
+    .hero {
+        height: 140vh;
+        width: auto;
+    }
+
+    .hero .content {
+        display: block;
+        justify-content: center;
+    }
+
+
+    .hero .content .heroText {
+        margin-top: 100px;
+    }
+
+
+    .hero .content .heroText h1 {
+        font-size: 50px;
+    }
+
+    .aboutcookies {
+        height: 150vh;
+        width: auto;
+    }
+
+    .aboutcookies .content {
+        display: block;
+
+    }
+
+    .aboutcookies .content img {
+        width: 400px;
+    }
+
+    .aboutcookies .content p {
+        width: auto;
+    }
+
+    .history {
+        width: auto;
+    }
+
+    .history .contentss {
+        display: block;
+    }
+
+    .history .contentss p {
+        width: auto;
+    }
+
+
+    .typeofcookies {
+        padding: 15px;
+        width: auto;
+        margin-top: 150px;
+    }
+
+    .typeofcookies h1 {
+        font-size: 45px;
+        margin-bottom: 70px;
+    }
+
+    .typeofcookies .cards img {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .typeofcookies .listcookies {
+        display: block;
+
+    }
+
+    .typeofcookies .listcookies .cards {
+        margin-top: 20px;
+    }
+
+
+
+    .footers .listfooter {
+        display: block;
+        width: auto;
+
+    }
+
+
+    .contact .formss input {
+        width: 400px;
+
+    }
+
+    .contact .formss textarea {
+        width: 400px;
+    }
+
+
+
+    .findlocation h1 {
+        font-size: 36px;
+        margin-top: 100px;
+
+    }
+
+    .findlocation iframe {
+        width: 450px;
+    }
 }

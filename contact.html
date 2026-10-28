@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
 
 </head>
 
@@ -15,8 +24,8 @@
         <div class="logo">
             <h1>CookiesWeb</h1>
         </div>
-        <div class="">
-            <ul>
+        <div>
+            <ul id="navbarss">
                 <li>
                     <a href="index.html">Home</a>
                 </li>
@@ -27,24 +36,47 @@
                     <a href="find.html">Find </a>
                 </li>
                 <li>
-                    <div class="">
+                    <div class="hamburgers" id="hamburgerMenu">
+                        <i class="fa-solid fa-bars">
+                        </i>
                     </div>
                 </li>
+
             </ul>
         </div>
+
+
+
+
     </nav>
+    <div class="hamburgerMenuList" id="hamburger-nav-list">
+        <div class="" style="margin-bottom: 20px; margin-top: 20px;">
+            <a href="index.html">Home</a>
+
+        </div>
+        <div class="" style="margin-bottom: 20px; margin-top: 20px;">
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+        <div class="" style="margin-bottom: 20px; margin-top: 20px;">
+            <a href="find.html">Find</a>
+
+        </div>
+    </div>
 
     <div class="contact">
         <h1 class="sora">CONTACT</h1>
-        <p>If you have any question about cookies, contact me by fill this form</p>
-        <form action="https://formspree.io/f/mvkkaean" method="POST" class="formss">
+        <p style="color: #553311; margin-top: 0;">If you have any question about cookies, contact me by fill this form
+        </p>
+        <form action=" https://formspree.io/f/mvkkaean" method="POST" class="formss">
             <div class="">
-                <h2>Email</h2>
+                <h2 class="sora" style="color: brown;">Email</h2>
                 <input type="text" name="email" style="margin-bottom: 20px;" placeholder="Email...">
             </div>
 
             <div class="">
-                <h2>Message</h2>
+                <h2 class="sora" style="color: brown;">Message</h2>
                 <textarea name="message" id="" placeholder="Message..."></textarea>
             </div>
             <button type="submit" class="buttons">Submit</button>
@@ -79,6 +111,8 @@
                 @2026 by Kuro</p>
         </div>
     </div>
+    <script src="main.js"></script>
+
 </body>
 
 </html>

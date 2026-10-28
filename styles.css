@@ -23,20 +23,16 @@ body {
     color: white;
     padding: 20;
     font-size: 15px;
-
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 5px;
-
-
 }
 
 ul li {
     padding: 20;
-
 }
 
 ul li a {
@@ -273,4 +269,89 @@ ul li a:hover {
     text-decoration: none;
     font-size: 20px;
     color: white;
+}
+
+
+
+.contact {
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.contact h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    color: brown;
+}
+
+.contact p {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact .formss {
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.contact .formss input {
+    border: 1px solid black;
+    padding: 15px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.contact .formss textarea {
+    width: 500px;
+    height: 100px;
+    resize: none;
+    padding: 15px;
+}
+
+.contact .formss .buttons {
+    background-color: brown;
+    color: white;
+    padding: 15px 35px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    border: 1;
+    border-color: brown;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact .formss .buttons:hover {
+    background-color: rgb(117, 29, 29);
+}
+
+
+.findlocation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.findlocation h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    color: brown;
+
+}
+
+.findlocation .location {
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }

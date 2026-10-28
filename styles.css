@@ -163,7 +163,7 @@ ul li a:hover {
 }
 
 .history {
-    background-color: brown;
+    background-color: #553311;
     padding: 30px;
 }
 
@@ -192,4 +192,85 @@ ul li a:hover {
     font-family: "Sora", sans-serif;
     color: white;
     font-weight: 600;
+}
+
+.typeofcookies {
+    height: auto;
+}
+
+.typeofcookies h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #553311;
+
+}
+
+.typeofcookies h2 {
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    width: auto;
+}
+
+.typeofcookies .listcookies {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+}
+
+.typeofcookies .cards {
+    border: 1px solid black;
+    padding: 25px 40px;
+    border-radius: 10px;
+    background-color: brown;
+}
+
+
+.typeofcookies .cards img {
+    width: 275px;
+    height: 250px;
+}
+
+.footers {
+    background-color: brown;
+    height: auto;
+    padding: 10px;
+    margin-top: 300px;
+}
+
+.footers .listfooter {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.footers .listfooter h1 {
+    color: white;
+}
+
+.footers .listfooter p {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    width: 400px;
+}
+
+
+.footers .listfooter .listmenu {
+    align-items: center;
+}
+
+
+.footers .listfooter .listmenu p {
+    font-size: 30px;
+}
+
+
+.footers .listfooter .listmenu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
 }

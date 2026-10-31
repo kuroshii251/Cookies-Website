@@ -9,7 +9,7 @@ cookie, and type of cookie.
 
 # Project Structure
 ```
-QuotesWeb
+CookiesWeb
 |--- picture
 |--- contact.html
 |--- find.html
